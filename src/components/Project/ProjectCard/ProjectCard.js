@@ -7,7 +7,6 @@ function ProjectCard({ id, name, budget, category, handleRemove }) {
 
   const remove = (e) => {
     e.preventDefault()
-    console.log("remove" + id)
     handleRemove(id);
   }
   return (
